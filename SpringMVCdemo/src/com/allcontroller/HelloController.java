@@ -6,14 +6,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 	
-@RequestMapping("/hello")  
+@RequestMapping("/hello_q")  
     public String redirect()  
     {  
-        return "viewpage";  
+        return "error";  
     }     
 @RequestMapping("/helloagain")  
 public String display()  
 {  
     return "final";  
-}  
+}
+
 }

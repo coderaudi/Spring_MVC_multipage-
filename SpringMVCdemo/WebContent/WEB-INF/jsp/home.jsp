@@ -8,13 +8,14 @@
 </head>
 <body>
 
-<h1>This is the Spring project INdex page ... welcome</h1>
 
-<a href="webhome">Test the project...!</a>
+<h1>Home page one</h1>
 
-<a href="hello">Hello page </a>
 
-<a href="home">Home page </a>
+<form action="testdemo" method="get">
+<input type="text" name="name">
+<input type="submit">
+</form>
 
 </body>
 </html>

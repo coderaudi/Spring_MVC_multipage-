@@ -4,17 +4,16 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Spring Project ..</title>
 </head>
 <body>
 
-<h1>This is the Spring project INdex page ... welcome</h1>
 
-<a href="webhome">Test the project...!</a>
+<h1>This is the Spring Project </h1>
 
-<a href="hello">Hello page </a>
+provide the basic features ..
 
-<a href="home">Home page </a>
+
 
 </body>
 </html>
