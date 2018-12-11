@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="signup">
+<form action="trysignup" method="post">
 
 Name : <input type="text" name="name"> <br>
 Email : <input type="text" name="email"> <br>
@@ -17,7 +17,7 @@ Mobile : <input type="tel" name="mobile"> <br>
 State : <input type="text" name="userAddress.state"> <br>
 city : <input type="text" name="userAddress.city"> <br>
 pin : <input type="text" name="userAddress.pin">
-
+<input type="submit">
 
 </form>
 

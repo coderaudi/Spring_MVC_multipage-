@@ -8,11 +8,11 @@
 </head>
 <body>
 
-<h1>This is the Spring project INdex page ... welcome</h1>
+UserInfo
 
-<h1> Spring MVC Projects ...!</h1>
+<h2>Name    : ${user.getName()}</h2>
+<h2>Email   : ${user.getEmail()}</h2>
 
-<h2>1 Contact System Project  <a href="home">visitProject</a> </h2>
 
 </body>
 </html>

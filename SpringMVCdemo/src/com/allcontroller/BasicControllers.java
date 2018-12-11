@@ -1,9 +1,13 @@
 package com.allcontroller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.model.User;
 
 @Controller
 public class BasicControllers {
@@ -24,5 +28,13 @@ public class BasicControllers {
 		
 		return "home";
 	}
+	
 
+	 @RequestMapping(value = "/trysignup", method = RequestMethod.POST) 
+	 public ModelAndView trySignUp(@ModelAttribute User user) 
+	 { 
+		ModelAndView m1 = new ModelAndView("UserProfile");
+		m1.addObject("user", user);
+		return m1;
+	 }
 }
